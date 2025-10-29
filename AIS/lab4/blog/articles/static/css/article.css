@@ -1,0 +1,45 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #333;
+    display: grid;
+    justify-content: center;
+}
+.article-info {
+    justify-content: space-between;
+    display: flex;
+}
+.archive {
+    width: 960px;
+}
+.post-title, a {
+    color: #ffffff;
+}
+.article-author {
+    width: 50%;
+    color: #ffffff;
+}
+.article-created-date {
+    text-align: right;
+    color: #ffffff;
+}
+.article-text {
+    color: #ffffff;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 960px;
+}
+.header .logo {
+    display: block;
+    margin: 0;
+    width: 318px;
+}
+.header:has(.all-posts) {
+    justify-content: space-between;
+}
+.one-post {
+    width: 960px
+}
